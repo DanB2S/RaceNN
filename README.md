@@ -23,10 +23,10 @@
   - With `Train Population` you can train the neural network with all 1000 cars. With the button `Save weight`, you can choose save the weights of the best car and the button `With Treined Weight`, it will read the weight of the best car saved previously and load it in the first car.
   - With `Single Car Run` you can see the best car saved running alone.
   - With `Player Drive` you can drive the car by yourself. Keys: `W A S D` and `delete` to reset.
-  The best part of those last two options, is that you can see the car's sensors, and how they work, as shown in the image below.
+  - The best part of those last two options, is that you can see the car's sensors, and how they work, as shown in the image below.
 
 <p align="left">
-  <img src="https://github.com/DanB2S/RaceNN/assets/77987747/0026cd03-65fd-4236-a724-f840ae9d47c7" width="100" title="Car">
+  <img src="https://github.com/DanB2S/RaceNN/assets/77987747/0026cd03-65fd-4236-a724-f840ae9d47c7" width="120" title="Car">
 </p>
 
 ## Running
@@ -34,7 +34,7 @@
   As soon as you press `GO`, the cars will start driving.
   
 <p align="left">
-  <img src="https://github.com/DanB2S/RaceNN/assets/77987747/6167935f-e9c3-4a23-ae5d-1e5bc6678b18" width="120" title="Running">
+  <img src="https://github.com/DanB2S/RaceNN/assets/77987747/6167935f-e9c3-4a23-ae5d-1e5bc6678b18" width="150" title="Running">
 </p>
 
   As you can see on the right, there's a visual representation of the neural network of the best car:
