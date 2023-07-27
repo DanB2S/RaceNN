@@ -6,10 +6,10 @@
 
 ## Requirements
 
-  For this min-game work, we need 2 files and an image. 
-  The first file is located at `data/track/`. It's starts with two numbers that represent the start position X and Y of the track. Beware that the car always starts for the right. After that, there's a matrix of 0 and 1, where 1 represents road and 0 off-road in the track. This file can be generated and modified, if you want to generate your own track.
-  The second file is located at `data/track_score/`. It's represent the scores lines that works as a checkpoint for the car, it's mandatory to evaluate the car's neural networks. It's start with the numbers of checkpoint lines. After, those lines represented as two points in the track.
-  The third is an image, just for visual representation of the track, that can be useful for generating the 2 files above.
+  For this min-game work, we need 2 files and an image:
+  - The first file is located at `data/track/`. It's starts with two numbers that represent the start position X and Y of the track. Beware that the car always starts for the right. After that, there's a matrix of 0 and 1, where 1 represents road and 0 off-road in the track. This file can be generated and modified, if you want to generate your own track.
+  - The second file is located at `data/track_score/`. It's represent the scores lines that works as a checkpoint for the car, it's mandatory to evaluate the car's neural networks. It's start with the numbers of checkpoint lines. After, those lines represented as two points in the track.
+  - The third is an image, just for visual representation of the track, that can be useful for generating the 2 files above.
 
 ## Start settings
 
@@ -19,8 +19,8 @@
   <img src="https://github.com/DanB2S/RaceNN/assets/77987747/32a5b201-37a5-42a3-913b-cdc188f8be04" width="560" title="Start Window">
 </p>
 
-  It's preview the map that can be chosen, and the button `only road`, where you can change the map to show only the roads. At the right, you can choose between `Population Train`, `Single Car Run` or `Player Drive`.
-  - With `Population Train` you can train the neural network with all 1000 cars. With the button `Save weight`, you can choose save the weights of the best car and the button `With Treined Weight`, it will read the weight of the best car saved previously and load it in the first car.
+  It's preview the map that can be chosen, and the button `only road`, where you can change the map to show only the roads. At the right, you can choose between `Train Population`, `Single Car Run` or `Player Drive`.
+  - With `Train Population` you can train the neural network with all 1000 cars. With the button `Save weight`, you can choose save the weights of the best car and the button `With Treined Weight`, it will read the weight of the best car saved previously and load it in the first car.
   - With `Single Car Run` you can see the best car saved running alone.
   - With `Player Drive` you can drive the car by yourself. Keys: `W A S D` and `delete` to reset.
   The best part of those last two options, is that you can see the car's sensors, and how they work, as shown in the image below.
