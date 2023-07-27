@@ -38,7 +38,7 @@
 </p>
 
   As you can see on the right, there's a visual representation of the neural network of the best car:
-  - In the left the `Input Layer` (eight directions, distance from next checkpoint and speed of the car), in the middle the Hidden Layer (10 neurons) and at right the Output Layer (throttle, right, left and brake). 
+  - In the left the `Input Layer` (eight directions, distance from next checkpoint and speed of the car), in the middle the `Hidden Layer` (10 neurons) and at right the `Output Layer` (throttle, right, left and brake). 
   - The lines represent the weights: green for positive weights, blue for negative and black for neutral. 
   - Some useful information as: `Score` of the best car, `Best Score` from all epochs, `Lap` of the best car, `Generation` as epoch of the cars and `Time` a timer that eliminate the slow cars.
 
